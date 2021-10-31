@@ -21,9 +21,7 @@ export default function PortfolioContainer() {
         if (currentPage === 'Portfolio') {
             return <Portfolio />;
         }
-        if (currentPage === 'Resume') {
-            return <Resume />;
-        }
+        return <Resume />;
     }
 
     // this function takes the data (page) and passes it into the setCurrentPage to update state.
@@ -38,7 +36,5 @@ export default function PortfolioContainer() {
             {renderPage()}
         </div>
     )
-
-
 
 }
