@@ -5,6 +5,7 @@ import About from './pages/About'
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import '../styles/portfolioContainer.css';
 
 
 export default function PortfolioContainer() {
@@ -29,11 +30,13 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page)
 
     return (
-        <div>
-            {/* we pass currentPage to set state (About) in Navigation.js and handlePageChange to update it */}
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-            {/* passing this to return the corresponding components */}
-            {renderPage()}
+        <div class="page-container">
+            <div class="content-wrap">
+                 {/* we pass currentPage to set state (About) in Navigation.js and handlePageChange to update it */}
+                <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+                {/* passing this to return the corresponding components */}
+                {renderPage()}
+            </div>
             <Footer />
         </div>
     )
