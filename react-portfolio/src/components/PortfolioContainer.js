@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
+import Footer from './Footer'
 import About from './pages/About'
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
@@ -31,9 +32,9 @@ export default function PortfolioContainer() {
         <div>
             {/* we pass currentPage to set state (About) in Navigation.js and handlePageChange to update it */}
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-            
             {/* passing this to return the corresponding components */}
             {renderPage()}
+            <Footer />
         </div>
     )
 

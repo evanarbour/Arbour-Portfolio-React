@@ -12,7 +12,7 @@ function Navigation ({ currentPage, handlePageChange}) {
                     <a class="nav-item" href="#about"
                         onClick={() => handlePageChange('About')}
                         className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-                        >About Me <span class="sr-only">(current)</span>
+                        >About Me
                     </a>
                     <a class="nav-item" href="#portfolio"
                         onClick={() => handlePageChange('Portfolio')}
