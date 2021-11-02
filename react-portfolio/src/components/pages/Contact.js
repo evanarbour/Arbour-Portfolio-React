@@ -1,17 +1,54 @@
-import React from 'react';
+import React, { useState } from 'react';
+import '../../styles/Contact.css'
 
-export default function Contact() {
-  return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
-  );
+function Contact () {
+    const [firstName, setFirstName] = useState('');
+    const [lastName, setLastName] = useState('');
+
+
+    const handleInputChange = (e) => {
+
+        const { name, value } = e.target;
+
+        return name === 'firstName' ? setFirstName(value) : setLastName(value);
+    };
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+
+        setFirstName();
+        setLastName();
+    }
+    
+    
+    return (
+        <div>
+            <p>
+                Hey {firstName}! Thanks for the message!
+            </p>
+            <form className="form">
+                <input
+                value={firstName}
+                name="firstName"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="First Name"
+                />
+                <input
+                value={lastName}
+                name="lastName"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="Last Name"
+                />
+                <button type="button" onClick={handleFormSubmit}>
+                Submit
+                </button>
+            </form>
+        </div>
+      );
 }
+
+
+  
+export default Contact;
