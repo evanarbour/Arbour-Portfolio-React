@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/Navigation.css'
 
 function Navigation ({ currentPage, handlePageChange}) {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#about">Evan Arbour</a>
+            <a class="navbar-brand" id="nav-name" href="#about">Evan Arbour</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

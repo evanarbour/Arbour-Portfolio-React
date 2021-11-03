@@ -10,7 +10,7 @@ function Footer () {
         <footer class="footer">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-sm-12">
+                    <div class="col-12">
                         <h3>Stay In Touch</h3>
                         <ul class="list-unstyled d-flex justify-content-around">
                             <li>

@@ -1,9 +1,21 @@
 #evan-photo {
-  height: 100%;
-  width: 50%;
+  padding-top: 5%;
+  height: auto;
+  width: 100%;
 }
 
-h1,
+.stylesheet {
+  background-color: #09364a;
+}
+
 h3 {
   font-family: "Playfair Display", serif;
+  color: #dcddde;
+}
+
+h1 {
+  font-family: "courier", serif;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #dcddde;
 }
