@@ -27,3 +27,7 @@ i {
 .icon-container {
   padding-bottom: 5%;
 }
+
+.card {
+  margin: 8px;
+}

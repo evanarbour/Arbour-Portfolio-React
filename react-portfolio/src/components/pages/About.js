@@ -10,8 +10,8 @@ import { BsPeople } from "react-icons/bs";
 export default function About() {
   return (
     <div class="container">
-        <div class="row">
-            <div class="col-7 text-center">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-7 col-sm-12 text-center order-1">
                 <h1>
                     Evan Arbour
                 </h1>
@@ -32,12 +32,12 @@ export default function About() {
                 </p>
                 <span>{<br/>}</span>
             </div>
-            <div class="col-5">
+            <div class="col-lg-5 col-sm-4 order-2">
                 <img src={Photo} alt="evan" id="evan-photo"></img>
             </div>
         </div>
         <div class="row justify-content-around">
-            <div class="col-sm-2">
+            <div class="col-lg-2 col-md-4 col-sm-6">
                 <div class="card rounded">
                     <div class="card-body text-center">
                         <h5 class="card-title">Belonging</h5>
@@ -48,7 +48,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-lg-2 col-md-4 col-sm-6">
                 <div class="card rounded">
                     <div class="card-body text-center">
                         <h5 class="card-title">Hard Work</h5>
@@ -59,7 +59,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-lg-2 col-md-4 col-sm-6">
                 <div class="card rounded">
                     <div class="card-body text-center">
                         <h5 class="card-title ">Authenticity</h5>
@@ -70,7 +70,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-lg-2 col-md-4 col-sm-6">
                 <div class="card rounded">
                     <div class="card-body text-center">
                         <h5 class="card-title">Service</h5>
@@ -81,14 +81,14 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-lg-2 col-md-4 col-sm-6">
                 <div class="card rounded">
                     <div class="card-body text-center">
                         <h5 class="card-title">Leadership</h5>
                         <div class="icon-container">
                             <i><BsLightbulb /></i>
                         </div>
-                        <p class="card-text">Mbilize the potential of others. Strive to be someone worth following.</p>
+                        <p class="card-text">Mobilize the potential of others. Strive to be someone worth following.</p>
                     </div>
                 </div>
             </div>
