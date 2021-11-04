@@ -51,17 +51,6 @@ export default function About() {
             <div class="col-lg-2 col-md-4 col-sm-6">
                 <div class="card rounded">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Hard Work</h5>
-                        <div class="icon-container">
-                            <i><BsAward /></i>
-                        </div>
-                        <p class="card-text">Execute the discpline and decisions that render the best results.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6">
-                <div class="card rounded">
-                    <div class="card-body text-center">
                         <h5 class="card-title ">Authenticity</h5>
                         <div class="icon-container">
                             <i><BsCheck2Square /></i>
@@ -89,6 +78,17 @@ export default function About() {
                             <i><BsLightbulb /></i>
                         </div>
                         <p class="card-text">Mobilize the potential of others. Strive to be someone worth following.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="card rounded">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Hard Work</h5>
+                        <div class="icon-container">
+                            <i><BsAward /></i>
+                        </div>
+                        <p class="card-text">Execute the discpline and decisions that render the best results.</p>
                     </div>
                 </div>
             </div>
