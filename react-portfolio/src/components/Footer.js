@@ -8,10 +8,9 @@ import '../styles/Footer.css';
 function Footer () {
     return (
         <footer class="footer">
-            <div class="container">
                 <div class="row text-center">
                     <div class="col-12">
-                        <h3>Stay In Touch</h3>
+                        <h2>Stay In Touch</h2>
                         <ul class="list-unstyled d-flex justify-content-around">
                             <li>
                                 <a href="mailto:evan.arbour@gmail.com"><BsEnvelope /></a>
@@ -28,7 +27,6 @@ function Footer () {
                         </ul>
                     </div>
                 </div>
-            </div>
         </footer>
     );
 
