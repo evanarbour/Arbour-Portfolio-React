@@ -10,7 +10,6 @@ function Footer () {
         <footer class="footer">
                 <div class="row text-center">
                     <div class="col-12">
-                        <h2>Stay In Touch</h2>
                         <ul class="list-unstyled d-flex justify-content-around">
                             <li>
                                 <a href="mailto:evan.arbour@gmail.com"><BsEnvelope /></a>

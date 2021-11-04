@@ -30,4 +30,5 @@ i {
 
 .card {
   margin: 8px;
+  box-shadow: 5px 5px 15px 10px hsl(0, 4%, 91%);
 }

@@ -30,8 +30,8 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page)
 
     return (
-        <div class="page-container">
-            <div class="content-wrap">
+        <div className="page-container">
+            <div className="content-wrap">
                  {/* we pass currentPage to set state (About) in Navigation.js and handlePageChange to update it */}
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
                 {/* passing this to return the corresponding components */}
