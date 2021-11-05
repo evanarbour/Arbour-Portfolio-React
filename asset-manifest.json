@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e5e6730d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.6ab17cb5.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.6ab17cb5.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7530632e.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7530632e.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/react-portfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.39992cb1.chunk.js": "/react-portfolio/static/js/2.39992cb1.chunk.js",
+    "static/js/2.39992cb1.chunk.js.map": "/react-portfolio/static/js/2.39992cb1.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/react-portfolio/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.e5e6730d.chunk.css.map": "/react-portfolio/static/css/main.e5e6730d.chunk.css.map",
+    "static/js/2.39992cb1.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.39992cb1.chunk.js.LICENSE.txt",
+    "static/media/Evan-image.fb250743.jpg": "/react-portfolio/static/media/Evan-image.fb250743.jpg",
+    "static/media/EvanArbour_Resume.03dea228.pdf": "/react-portfolio/static/media/EvanArbour_Resume.03dea228.pdf",
+    "static/media/city.fba51222.jpg": "/react-portfolio/static/media/city.fba51222.jpg",
+    "static/media/clouds.bd3cc051.jpg": "/react-portfolio/static/media/clouds.bd3cc051.jpg",
+    "static/media/fitness.e9a49d44.jpg": "/react-portfolio/static/media/fitness.e9a49d44.jpg",
+    "static/media/keyboard.8d9401cc.jpg": "/react-portfolio/static/media/keyboard.8d9401cc.jpg",
+    "static/media/notes.86c076af.jpg": "/react-portfolio/static/media/notes.86c076af.jpg",
+    "static/media/social.50ed736a.jpg": "/react-portfolio/static/media/social.50ed736a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7530632e.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.39992cb1.chunk.js",
+    "static/css/main.e5e6730d.chunk.css",
+    "static/js/main.6ab17cb5.chunk.js"
+  ]
+}
