@@ -31,9 +31,9 @@ export default function PortfolioContainer() {
 
     return (
         <div className="page-container">
+             {/* we pass currentPage to set state (About) in Navigation.js and handlePageChange to update it */}
+             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             <div className="content-wrap">
-                 {/* we pass currentPage to set state (About) in Navigation.js and handlePageChange to update it */}
-                <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
                 {/* passing this to return the corresponding components */}
                 {renderPage()}
             </div>

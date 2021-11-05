@@ -12,16 +12,16 @@ function Footer () {
                     <div class="col-12">
                         <ul class="list-unstyled d-flex justify-content-around">
                             <li>
-                                <a href="mailto:evan.arbour@gmail.com"><BsEnvelope /></a>
+                                <a class="social" href="mailto:evan.arbour@gmail.com"><BsEnvelope /></a>
                             </li>
                             <li>
-                                <a href="www.github.com/evanarbour"><BsGithub /></a>
+                                <a class="social" href="www.github.com/evanarbour"><BsGithub /></a>
                             </li>
                             <li>
-                                <a href="www.linkedin.com/evanarbour"><BsLinkedin /></a>
+                                <a class="social" href="www.linkedin.com/evanarbour"><BsLinkedin /></a>
                             </li>   
                             <li>
-                                <a href="www.instagram.com/evanarbour"><BsInstagram /></a>
+                                <a class="social" href="www.instagram.com/evanarbour"><BsInstagram /></a>
                             </li>
                         </ul>
                     </div>

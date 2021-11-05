@@ -1,0 +1,61 @@
+.page-title {
+  padding-bottom: 1%;
+}
+
+.resume-p {
+  padding-bottom: 3%;
+}
+
+.resume-link {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.current {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  padding: 10px;
+  background-color: #b0ddff;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#repoLinks {
+  background-color: inherit;
+}
+
+.repo-btn {
+  background-color: #338aad;
+  color: #f5f5f5;
+  border: 1px solid #338aad;
+  border-radius: 0;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: ease-in-out 0.25s;
+  width: 90%;
+}
+
+.repo-btn:hover {
+  opacity: 0.8;
+}
+
+.technologies {
+  list-style: none;
+  margin-bottom: 5%;
+  padding-inline-start: 0px;
+  background-color: inherit;
+}
+
+.tech-used {
+  display: inline;
+  padding: 5px;
+}

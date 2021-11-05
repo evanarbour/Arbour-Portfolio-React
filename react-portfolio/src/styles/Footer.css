@@ -15,3 +15,10 @@
 a {
   font-size: 1.3rem;
 }
+
+.social {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: lightslategray;
+  transition: ease-in-out 0.25s;
+}
